@@ -290,7 +290,7 @@ fill_fits <- function(main = ".", control_files = files_control(),
 #'
 fill_raw <- function(main = ".", 
                      downloads = zenodo_downloads(c("1215988", "833438")), 
-                     only_if_missing = FALSE,
+                     only_if_missing = TRUE,
                      control_files = files_control(), quiet = FALSE, 
                      arg_checks = TRUE){
   check_args(arg_checks = arg_checks)
