@@ -1,0 +1,16 @@
+cast_all <- AutoArima(data_set = "all", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_all, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_all_interp <- AutoArima(data_set = "all_interp", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_all_interp, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_controls <- AutoArima(data_set = "controls", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_controls, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_controls_interp <- AutoArima(data_set = "controls_interp", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_controls_interp, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_exclosures <- AutoArima(data_set = "exclosures", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_exclosures, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_exclosures_interp <- AutoArima(data_set = "exclosures_interp", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_exclosures_interp, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_dm_controls <- AutoArima(data_set = "dm_controls", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_dm_controls, main = ".", quiet = FALSE, arg_checks = TRUE);
+cast_dm_controls_interp <- AutoArima(data_set = "dm_controls_interp", main = ".", control_files = files_control(), quiet = FALSE, verbose = TRUE, arg_checks = TRUE);
+save_cast_output(cast_dm_controls_interp, main = ".", quiet = FALSE, arg_checks = TRUE);

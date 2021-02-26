@@ -1,0 +1,27 @@
+setup_date: '2021-02-25'
+setup_R_version:
+  platform: x86_64-pc-linux-gnu
+  arch: x86_64
+  os: linux-gnu
+  system: x86_64, linux-gnu
+  status: ''
+  major: '4'
+  minor: '0.3'
+  year: '2020'
+  month: '10'
+  day: '10'
+  svn rev: '79318'
+  language: R
+  version.string: R version 4.0.3 (2020-10-10)
+  nickname: Bunny-Wunnies Freak Out
+setup_portalcasting_version: 0.20.0
+directory_tree:
+  main: ./main_folder
+  subs:
+  - casts
+  - models
+  - raw
+  - data
+  - tmp
+downloads_versions: ~
+
